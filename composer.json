@@ -1,0 +1,23 @@
+{
+  "name": "captain_duckay/msisdn",
+  "description": "Code to cverify and generate MSISDN's from different countries",
+  "minimum-stability": "stable",
+  "license": "GPL-2.0-only",
+  "authors": [
+    {
+      "name": "Nicki Bo Otte",
+      "email": "duckay@live.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "captainDuckay\\msisdn\\": "src"
+    },
+    "psr-4": {
+      "captainDuckay\\msisdn\\": "src"
+    }
+  }
+}
